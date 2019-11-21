@@ -6,8 +6,12 @@ To get started, you need to install the [Azure.Storage.Blobs](https://www.nuget.
 
 We fetch images asynchronously and add them to  [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) by using [UnboundSource](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.UnboundSource) that allows you to dynamically add columns and rows.
 
+![Alt text](grid.png)
 
 By extending a context menu of [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit), we also illustrate how to upload the editor current image to **Azure Blob Storage**.
 
+![Alt text](menu.png)
 
 To run this example, it is also necessary to specify your connection settings in the **Main** method:
+
+![Alt text](code.png)
